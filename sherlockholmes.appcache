@@ -1,0 +1,41 @@
+CACHE MANIFEST
+      
+# Version 1.8
+
+CACHE:
+css/normalize.css
+css/sherlockholmes.css
+css/typeplate.css
+js/bookmark.js
+index.html
+novels/a-study-in-scarlet/index.html
+adventures/a-case-of-identity/index.html
+adventures/a-scandal-in-bohemia/index.html
+adventures/the-beryl-coronet/index.html
+adventures/the-blue-carbuncle/index.html
+adventures/the-boscombe-valley-mystery/index.html
+adventures/the-copper-beeches/index.html
+adventures/the-engineers-thumb/index.html
+adventures/the-five-orange-pips/index.html
+adventures/the-man-with-the-twisted-lip/index.html
+adventures/the-noble-bachelor/index.html
+adventures/the-red-headed-league/index.html
+adventures/the-speckled-band/index.html
+memoirs/silver-blaze/index.html
+memoirs/the-yellow-face/index.html
+memoirs/the-stockbrokers-clerk/index.html
+memoirs/the-gloria-scott/index.html
+memoirs/the-musgrave-ritual/index.html
+memoirs/the-reigate-squires/index.html
+memoirs/the-crooked-man/index.html
+memoirs/the-resident-patient/index.html
+memoirs/the-greek-interpreter/index.html
+memoirs/the-naval-treaty/index.html
+memoirs/the-final-problem/index.html
+
+
+FALLBACK:
+/ /offline.html
+
+NETWORK:
+*
