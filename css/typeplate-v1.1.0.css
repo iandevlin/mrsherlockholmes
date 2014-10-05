@@ -1,12 +1,26 @@
-/*!
-TYPEPLATE
-URL ........... http://typeplate.com
-VERSION ....... 1.1.4
-Github ........ https://github.com/typeplate/bower
-AUTHORS ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
-LICENSE ....... Creative Commmons Attribution 3.0 (http://creativecommons.org/licenses/by/3.0)
-LICENSE URL ... https://github.com/typeplate/bower/blob/master/license.txt
-*/
+/*
+ *
+ *.||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||.
+ *
+ *  .                                      '||            .           
+ *.||.  .... ... ... ...    ....  ... ...   ||   ....   .||.    ....  
+ * ||    '|.  |   ||'  || .|...||  ||'  ||  ||  '' .||   ||   .|...|| 
+ * ||     '|.|    ||    | ||       ||    |  ||  .|' ||   ||   ||      
+ * '|.'    '|     ||...'   '|...'  ||...'  .||. '|..'|'  '|.'  '|...' 
+ *      .. |      ||               ||                                 
+ *       ''      ''''             ''''                                
+ *
+ * URL ............ http://typeplate.com
+ * VERSION ........ 1.1.0
+ * Github ......... https://github.com/typeplate/typeplate.github.io
+ * AUTHORS ........ Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+ * LICENSE ........ Creative Commmons Attribution 3.0
+ * LICENSE URL .... http://creativecommons.org/licenses/by/3.0
+ *
+ * .||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||..||.
+ *
+ */
+
 
 
 /**
@@ -163,49 +177,37 @@ h6 {
 *
 * 18, 21, 24, 36, 48, 60, 72, 90, 117
 *
-*
-* Explanation:
-* margin-bottom = ( base font-size * base line-height ) / current font-size
-*
-* Makes sure that there's always one unit of measure's worth of space between shit
-* for headings. This is better than spacing using line-height because of the wrapping issue where we have
-* wrapping onto 2 lines with a high line-height.
- */
+*/
 
 .tera {
 	font-size: 117px;
 	font-size: 6.5rem; /* 117 / 18 = 6.5 */
-	margin-bottom: 4.56923px;
-	margin-bottom: 0.25385rem;
+	margin-bottom: 0.25385em;
 }
 
 .giga {
 	font-size: 90px;
 	font-size: 5rem; /* 90 / 18 = 5 */
-	margin-bottom: 5.94px;
-	margin-bottom: 0.33rem;
+	margin-bottom: 0.33em;
 }
 
 .mega {
 	font-size: 72px;
 	font-size: 4rem; /* 72 / 18 = 4 */
-	margin-bottom: 7.425px;
-	margin-bottom: 0.4125rem;
+	margin-bottom: 0.4125em;
 }
 
 h1,
 .alpha {
 	font-size: 60px;
 	font-size: 3.33333rem; /* 60 / 18 = 3.3333 */
-	margin-bottom: 8.91px;
-	margin-bottom: 0.495rem;
+	margin-bottom: 0.495em;
 }
 
 h2,
 .beta {
 	font-size: 48px;
 	font-size: 2.6667rem; /* 48 / 18 = 2.6667 */
-	margin-bottom: 11.1375px;
 	margin-bottom: 0.61875rem;
 }
 
@@ -213,33 +215,37 @@ h3,
 .gamma {
 	font-size: 36px;
 	font-size: 2rem; /* 36 / 18 = 2 */
-	margin-bottom: 14.85px;
-	margin-bottom: 0.825rem;
+	margin-bottom: 0.825em;
 }
 
 h4,
 .delta {
 	font-size: 24px;
 	font-size: 1.3333333333333333rem; /* 24 / 18 = 1.3333 */
-	margin-bottom: 22.275px;
-	margin-bottom: 1.2375rem;
+	margin-bottom: 1.2375em;
 }
 
 h5,
 .epsilon {
 	font-size: 21px;
 	font-size: 1.16667rem; /* 21 / 18 = 1.1667 */
-	margin-bottom: 25.45714px;
-	margin-bottom: 1.41429rem;
+	margin-bottom: 1.4142857142857141em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(21) = margin-bottom(1.4142857142857141) */
 }
 
 h6,
 .zeta {
 	font-size: 18px;
 	font-size: 1rem; /* 18 = 18 × 1 */
-	margin-bottom: 29.7px;
-	margin-bottom: 1.65rem;
+	margin-bottom: 1.65em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */
 }
+
+/* margin-bottom for headings:
+ *
+ * Explanation:
+ * Makes sure that there's always one unit of measure's worth of space between shit
+ * for headings. This is better than spacing using line-height because of the wrapping issue where we have
+ * wrapping onto 2 lines with a high line-height.
+ */
 
 
 /**
@@ -330,8 +336,8 @@ abbr {
 	color: #808080;
 }
 
-abbr[title]:hover {
-	cursor: help; /* cursor changed to a question mark when it has a title */
+abbr:hover {
+	cursor: help; /* cursor changed to a question mark */
 }
 
 

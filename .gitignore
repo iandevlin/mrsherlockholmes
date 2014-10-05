@@ -1,0 +1,5 @@
+# Project files
+*.sublime-*
+
+# Legacy files
+typeplate-*.css
